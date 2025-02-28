@@ -30,7 +30,7 @@ const pageLinks = [
   },
   {
     label: "Community",
-    path: "https://discord.gg/Vm5xVXFU",
+    path: "https://discord.gg/jM4ks9nP",
     target: "_blank", // Open in a new tab
   },
 ];
