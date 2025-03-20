@@ -5,176 +5,147 @@ const PrivacyPolicy = () => {
     <div className="ml-2 mr-10">
       <div className="flex flex-col items-center">
         <div className="w-full px-9 mt-10 py-10">
+          {/* Title */}
           <h1 className="text-dark-blue text-3xl font-extrabold text-center">
             Privacy Policy for Jobbyo
           </h1>
-
-          <p className="text-dark-blue text-md mt-6">
-            This Privacy Policy explains Our policies on the collection, use,
-            and disclosure of Your information when You use our Service. It also
-            details Your privacy rights and how the law protects You. By using
-            the Service, You agree to the collection and use of information in
-            accordance with this Privacy Policy.
+          <p className="text-dark-blue text-md mt-2 text-center italic">
+            Last Updated: March 20, 2025
           </p>
 
-          <h2 className="text-dark-blue text-2xl font-bold mt-8">
-            Interpretation and Definitions
-          </h2>
+          {/* Intro Paragraph */}
+          <p className="text-dark-blue text-md mt-6">
+            This Privacy Policy describes how Jobbyo collects, uses, and protects your personal information when you use our website and services. By accessing Jobbyo, you agree to the terms of this Privacy Policy.
+          </p>
 
+          {/* Section 1 */}
+          <h2 className="text-dark-blue text-2xl font-bold mt-8">
+            1. Information We Collect
+          </h2>
           <h3 className="text-dark-blue text-xl font-semibold mt-6">
-            Interpretation
+            a) Registration and Account Information:
           </h3>
-          <p className="text-dark-blue text-md">
-            The words of which the initial letter is capitalized have meanings
-            defined under the following conditions. These definitions shall
-            have the same meaning regardless of whether they appear in singular
-            or in plural.
+          <p className="text-dark-blue text-md mt-2">
+            When creating an account, you provide personal details including your name, email, location, resume, and professional skills. This information helps us personalize your job search experience.
           </p>
-
           <h3 className="text-dark-blue text-xl font-semibold mt-6">
-            Definitions
+            b) Usage Information:
           </h3>
-          <p className="text-dark-blue text-md">
-            For the purposes of this Privacy Policy:
-            <ul className="list-disc ml-5 mt-2">
-              <li>
-                <strong>Account:</strong> A unique account created for You to
-                access our Service or parts of our Service.
-              </li>
-              <li>
-                <strong>Company:</strong> Refers to Jobbyo, the official app
-                used for autofilling job applications, updating resumes, and
-                contacting HR via LinkedIn and Gmail.
-              </li>
-              <li>
-                <strong>Personal Data:</strong> Any information that relates to
-                an identified or identifiable individual.
-              </li>
-              <li>
-                <strong>Service:</strong> The Jobbyo application and Chrome
-                extension.
-              </li>
-              <li>
-                <strong>Usage Data:</strong> Data collected automatically when
-                using the Service (e.g., IP address, browser type).
-              </li>
-              <li>
-                <strong>You:</strong> Refers to the individual using the
-                Service, or the company, or other legal entity on behalf of
-                which such individual is accessing the Service.
-              </li>
-            </ul>
+          <p className="text-dark-blue text-md mt-2">
+            We automatically track your interactions with our website, such as pages visited, job applications submitted, and other related actions. This helps us improve our services and user experience.
           </p>
-
-          <h2 className="text-dark-blue text-2xl font-bold mt-8">
-            Collecting and Using Your Personal Data
-          </h2>
-
           <h3 className="text-dark-blue text-xl font-semibold mt-6">
-            Personal Data
+            c) Cookies:
           </h3>
-          <p className="text-dark-blue text-md">
-            While using Our Service, We may ask You to provide Us with certain
-            personally identifiable information that can be used to contact or
-            identify You. Personally identifiable information may include, but
-            is not limited to:
+          <p className="text-dark-blue text-md mt-2">
+            Jobbyo uses cookies to enhance your browsing experience, enable automatic logins, and remember your preferences. You can disable cookies through your browser settings, though this may limit your ability to use certain features.
           </p>
-          <ul className="list-disc ml-5 mt-2">
-            <li>Your full name</li>
-            <li>Your email address (via Gmail OAuth)</li>
-            <li>Your LinkedIn profile information</li>
-            <li>Your resume and job history data</li>
-          </ul>
-
           <h3 className="text-dark-blue text-xl font-semibold mt-6">
-            Usage Data
+            d) Communications:
           </h3>
-          <p className="text-dark-blue text-md">
-            Usage Data is collected automatically when using the Service and
-            may include details such as Your device's IP address, browser type,
-            browser version, and interaction with job application forms or HR
-            contact activities.
+          <p className="text-dark-blue text-md mt-2">
+            If you contact us by email or through other channels, we may keep a record of your correspondence for customer support purposes.
           </p>
 
+          {/* Section 2 */}
           <h2 className="text-dark-blue text-2xl font-bold mt-8">
-            Use of Your Personal Data
+            2. How We Use Your Information
           </h2>
-          <p className="text-dark-blue text-md mt-6">
-            We use Personal Data for the following purposes:
+          <h3 className="text-dark-blue text-xl font-semibold mt-6">
+            a) Service Delivery:
+          </h3>
+          <p className="text-dark-blue text-md mt-2">
+            Your personal information is used primarily to provide our services, including matching you with relevant job opportunities, automatically applying to jobs, and personalizing your resume.
           </p>
-          <ul className="list-disc ml-5 mt-2">
-            <li>
-              <strong>Autofill Job Applications:</strong> Your resume and
-              personal data are used to automatically fill job applications
-              based on the job requirements.
-            </li>
-            <li>
-              <strong>Resume Optimization:</strong> To update and customize Your
-              resume based on job descriptions and requirements.
-            </li>
-            <li>
-              <strong>HR Contact:</strong> To allow You to contact HR via
-              LinkedIn and Gmail on Your behalf. This involves OAuth
-              authentication with Gmail to send emails on Your behalf.
-            </li>
-            <li>
-              <strong>Service Improvements:</strong> To analyze usage trends and
-              improve the quality of Our Service.
-            </li>
-          </ul>
+          <h3 className="text-dark-blue text-xl font-semibold mt-6">
+            b) Communications:
+          </h3>
+          <p className="text-dark-blue text-md mt-2">
+            We use your contact details to send you job alerts, service updates, security notices, and administrative information. You can opt-out of promotional communications at any time via the "unsubscribe" link.
+          </p>
+          <h3 className="text-dark-blue text-xl font-semibold mt-6">
+            c) Analytics and Improvement:
+          </h3>
+          <p className="text-dark-blue text-md mt-2">
+            We analyze aggregated, anonymized data to better understand user behavior, improve our platform, and enhance overall user satisfaction.
+          </p>
 
+          {/* Section 3 */}
           <h2 className="text-dark-blue text-2xl font-bold mt-8">
-            OAuth and Third-Party Integrations
+            3. Information Sharing and Disclosure
           </h2>
-          <p className="text-dark-blue text-md mt-6">
-            Our app integrates with Google Gmail APIs and LinkedIn to provide
-            functionality such as sending emails on Your behalf or accessing job
-            application data. We use OAuth 2.0 to ensure secure access to Your
-            accounts. By using these services, You agree to the collection and
-            use of Your personal information in accordance with this Privacy
-            Policy and the terms set forth by Google and LinkedIn.
+          <h3 className="text-dark-blue text-xl font-semibold mt-6">
+            a) Recruiters and Employers:
+          </h3>
+          <p className="text-dark-blue text-md mt-2">
+            Your resume, profile, and application details will be shared with prospective employers or recruiters when you use our service to apply to jobs.
+          </p>
+          <h3 className="text-dark-blue text-xl font-semibold mt-6">
+            b) Service Providers:
+          </h3>
+          <p className="text-dark-blue text-md mt-2">
+            We partner with trusted third parties for hosting, analytics, email delivery, payment processing, and other business-related services. These providers only have access to information necessary to perform their functions and are contractually obligated to protect your information.
+          </p>
+          <h3 className="text-dark-blue text-xl font-semibold mt-6">
+            c) Legal Compliance:
+          </h3>
+          <p className="text-dark-blue text-md mt-2">
+            We may disclose your information to authorities if legally required or to prevent fraud, protect user safety, or comply with law enforcement requests.
           </p>
 
+          {/* Section 4 */}
           <h2 className="text-dark-blue text-2xl font-bold mt-8">
-            Retention of Your Personal Data
+            4. Security Measures
           </h2>
-          <p className="text-dark-blue text-md mt-6">
-            We retain Your Personal Data only for as long as is necessary for
-            the purposes set out in this Privacy Policy or as required by law.
+          <p className="text-dark-blue text-md mt-2">
+            We implement industry-standard security practices to protect your personal data. However, no online transmission or storage method is entirely secure, and we cannot guarantee absolute security.
           </p>
 
+          {/* Section 5 */}
           <h2 className="text-dark-blue text-2xl font-bold mt-8">
-            Transfer of Your Personal Data
+            5. Third-Party Websites
           </h2>
-          <p className="text-dark-blue text-md mt-6">
-            Your Personal Data may be transferred and processed in countries
-            outside of Your jurisdiction. By using the Service, You consent to
-            such transfers.
+          <p className="text-dark-blue text-md mt-2">
+            Jobbyo may contain links to third-party websites or services. We are not responsible for their privacy practices, and we encourage you to review the privacy policies of any external websites you visit.
           </p>
 
+          {/* Section 6 */}
           <h2 className="text-dark-blue text-2xl font-bold mt-8">
-            Deletion of Your Personal Data
+            6. Your Rights and Choices
           </h2>
-          <p className="text-dark-blue text-md mt-6">
-            You have the right to delete or request that We assist in deleting
-            the Personal Data that We have collected about You. You can do so by
-            accessing the account settings within the Service or contacting Us.
+          <p className="text-dark-blue text-md mt-2">
+            You may access, update, or delete your personal information by logging into your Jobbyo account. For assistance or data deletion requests, contact us at{" "}
+            <a href="mailto:hello@jobbyo.ai" className="underline text-blue-500">
+              hello@jobbyo.ai
+            </a>.
           </p>
 
+          {/* Section 7 */}
           <h2 className="text-dark-blue text-2xl font-bold mt-8">
-            Changes to This Privacy Policy
+            7. Age Restrictions
           </h2>
-          <p className="text-dark-blue text-md mt-6">
-            We may update this Privacy Policy from time to time. Changes to this
-            Privacy Policy are effective when posted on this page.
+          <p className="text-dark-blue text-md mt-2">
+            Jobbyo is intended for users who are at least 18 years old. We do not knowingly collect data from minors.
           </p>
 
-          <h2 className="text-dark-blue text-2xl font-bold mt-8">Contact Us</h2>
-          <p className="text-dark-blue text-md mt-6">
-            If you have any questions about this Privacy Policy, You can contact
-            us:
+          {/* Section 8 */}
+          <h2 className="text-dark-blue text-2xl font-bold mt-8">
+            8. Changes to This Policy
+          </h2>
+          <p className="text-dark-blue text-md mt-2">
+            We may update this Privacy Policy periodically. If significant changes occur, we will notify you through our website or via email. Your continued use of Jobbyo after policy updates indicates your acceptance of these changes.
+          </p>
+
+          {/* Section 9 */}
+          <h2 className="text-dark-blue text-2xl font-bold mt-8">
+            9. Contact Us
+          </h2>
+          <p className="text-dark-blue text-md mt-2">
+            For any questions about this Privacy Policy or your personal data, please contact us at:
             <br />
-            By email at thiago@jobbyo.ai.
+            <a href="mailto:hello@jobbyo.ai" className="underline text-blue-500">
+              hello@jobbyo.ai
+            </a>
           </p>
         </div>
       </div>
