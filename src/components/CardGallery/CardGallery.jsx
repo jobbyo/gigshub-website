@@ -6,21 +6,21 @@ const cardsContent = [
   {
     heading: "Smart Job Matching",
     paragraph:
-      "Our AI, the cupid of job hunting, sifts through CVs, preferences, and job requirements to ensure you meet your match in the job market.",
+      "We surface jobs tailored to your experience, preferences, and goals — no more endless scrolling.",
     tags: ["be an early applicant", "automation"],
   },
   {
     heading: "Custom CV's",
     paragraph:
-      "Our platform lets you create CVs as unique as you are, showcasing your skills and experiences. Say goodbye to cookie-cutter resumes and hello to CVs that truly stand out.",
+      "Tailor your CV to different roles in seconds — optimized by AI, but built around your unique skills and experience.",
     tags: ["industry match"],
   },
   {
-    heading: "Job Tracking",
+    heading: "Auto Apply",
     paragraph:
-      "Your mission control for job applications! Dive into analytics, spot which companies are actively hiring, and track your progress. It’s like having a GPS for your job search.",
+      "We fill out applications for you in seconds. Say goodbye to repetitive forms.",
       tags: ["new"],
-     },
+  },
 ];
 
 export const CardGallery = () => {
@@ -29,12 +29,11 @@ export const CardGallery = () => {
       {/* Title & Subtitle */}
       <div className="max-w-4xl mx-auto text-center px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
-          What makes us{" "}
-          <span className="text-[#3F33C0]">unique</span> at Jobbyo
+          Job hunting, fully automated — {" "}
+          <span className="text-[#3F33C0]">finally</span>
         </h2>
         <p className="mt-4 text-lg md:text-xl text-gray-600">
-          We combine AI-driven features with a user-friendly approach, helping
-          you stand out and land the interviews you deserve.
+        We built Jobbyo to make job hunting feel less like a grind — and more like progress. These are the tools that put you back in control.
         </p>
       </div>
 

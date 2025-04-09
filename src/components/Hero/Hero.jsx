@@ -10,12 +10,12 @@ export const Hero = () => {
       <div className="max-w-4xl mx-auto text-center px-4">
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
-        Your AI assistant for job hunting
+        Job search. Reinvented.
         </h1>
 
         {/* Subtitle */}
         <p className="mt-4 text-lg md:text-xl text-gray-600">
-          The fastest way to find your dream job.
+        Let AI take care of the hunt — so you can focus on landing interviews, not filling out forms.
         </p>
 
         {/* Buttons */}
@@ -36,14 +36,13 @@ export const Hero = () => {
         <iframe
           width="100%"
           height="415"
-          src="https://app.supademo.com/embed/cm6eve3f609r6wabovct1hn43?embed_v=2"
+          src="https://app.supademo.com/embed/cm98hpwgj0ng5pxcbfyxwnwqn?embed_v=2"
           title="YouTube video player"
 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           className="mt-4 rounded-lg"  
         ></iframe>
-        
       </div>
       </div>
     </section>
